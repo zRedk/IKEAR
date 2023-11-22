@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097DAF7F2B0E5ACF00A701AB /* IKEA_NC1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF7E2B0E5ACF00A701AB /* IKEA_NC1App.swift */; };
+		097DAF812B0E5ACF00A701AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF802B0E5ACF00A701AB /* ContentView.swift */; };
+		097DAF832B0E5AD000A701AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097DAF822B0E5AD000A701AB /* Assets.xcassets */; };
+		097DAF862B0E5AD000A701AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097DAF852B0E5AD000A701AB /* Preview Assets.xcassets */; };
+		097DAF8D2B0E5C0800A701AB /* caroselloGrande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF8C2B0E5C0800A701AB /* caroselloGrande.swift */; };
+		097DAF8F2B0E5C9E00A701AB /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF8E2B0E5C9E00A701AB /* CardData.swift */; };
+		097DAF922B0E5CD100A701AB /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF912B0E5CD100A701AB /* CardViewModel.swift */; };
+		097DAF962B0E5D5A00A701AB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF952B0E5D5A00A701AB /* SearchBar.swift */; };
+		097DAF982B0E5E6C00A701AB /* ButtonScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF972B0E5E6C00A701AB /* ButtonScanner.swift */; };
+		097DAF9B2B0E5F0600A701AB /* GridProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF9A2B0E5F0600A701AB /* GridProducts.swift */; };
+		097DAF9D2B0E5F1200A701AB /* GridRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF9C2B0E5F1200A701AB /* GridRooms.swift */; };
+		097DAF9F2B0E62DC00A701AB /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF9E2B0E62DC00A701AB /* SegmentedControl.swift */; };
+		097DAFA22B0E664E00A701AB /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAFA12B0E664E00A701AB /* ProductDetailView.swift */; };
+		8EA193162B0E7E820064A8DB /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193152B0E7E820064A8DB /* flower_tulip.usdz */; };
+		8EA193182B0E7EB40064A8DB /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193172B0E7EB40064A8DB /* chair_swan.usdz */; };
+		8EA1931A2B0E7EBD0064A8DB /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		097DAF7B2B0E5ACF00A701AB /* IKEA_NC1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEA_NC1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097DAF7E2B0E5ACF00A701AB /* IKEA_NC1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEA_NC1App.swift; sourceTree = "<group>"; };
+		097DAF802B0E5ACF00A701AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		097DAF822B0E5AD000A701AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097DAF852B0E5AD000A701AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		097DAF8C2B0E5C0800A701AB /* caroselloGrande.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caroselloGrande.swift; sourceTree = "<group>"; };
+		097DAF8E2B0E5C9E00A701AB /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		097DAF912B0E5CD100A701AB /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		097DAF952B0E5D5A00A701AB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		097DAF972B0E5E6C00A701AB /* ButtonScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonScanner.swift; sourceTree = "<group>"; };
+		097DAF9A2B0E5F0600A701AB /* GridProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProducts.swift; sourceTree = "<group>"; };
+		097DAF9C2B0E5F1200A701AB /* GridRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRooms.swift; sourceTree = "<group>"; };
+		097DAF9E2B0E62DC00A701AB /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		097DAFA12B0E664E00A701AB /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		8EA193152B0E7E820064A8DB /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		8EA193172B0E7EB40064A8DB /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097DAF782B0E5ACF00A701AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097DAF722B0E5ACF00A701AB = {
+			isa = PBXGroup;
+			children = (
+				097DAF7D2B0E5ACF00A701AB /* IKEA_NC1 */,
+				097DAF7C2B0E5ACF00A701AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		097DAF7C2B0E5ACF00A701AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF7B2B0E5ACF00A701AB /* IKEA_NC1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		097DAF7D2B0E5ACF00A701AB /* IKEA_NC1 */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF7E2B0E5ACF00A701AB /* IKEA_NC1App.swift */,
+				097DAFA02B0E663000A701AB /* Views */,
+				097DAF942B0E5D2E00A701AB /* Components */,
+				097DAF902B0E5CB600A701AB /* Data */,
+				097DAF822B0E5AD000A701AB /* Assets.xcassets */,
+				097DAF842B0E5AD000A701AB /* Preview Content */,
+			);
+			path = IKEA_NC1;
+			sourceTree = "<group>";
+		};
+		097DAF842B0E5AD000A701AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF852B0E5AD000A701AB /* Preview Assets.xcassets */,
+				8EA193152B0E7E820064A8DB /* flower_tulip.usdz */,
+				8EA193172B0E7EB40064A8DB /* chair_swan.usdz */,
+				8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		097DAF902B0E5CB600A701AB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF912B0E5CD100A701AB /* CardViewModel.swift */,
+				097DAF8E2B0E5C9E00A701AB /* CardData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		097DAF942B0E5D2E00A701AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF8C2B0E5C0800A701AB /* caroselloGrande.swift */,
+				097DAF952B0E5D5A00A701AB /* SearchBar.swift */,
+				097DAF972B0E5E6C00A701AB /* ButtonScanner.swift */,
+				097DAF9E2B0E62DC00A701AB /* SegmentedControl.swift */,
+				097DAF992B0E5ED400A701AB /* Grids */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		097DAF992B0E5ED400A701AB /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF9A2B0E5F0600A701AB /* GridProducts.swift */,
+				097DAF9C2B0E5F1200A701AB /* GridRooms.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
+		097DAFA02B0E663000A701AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				097DAF802B0E5ACF00A701AB /* ContentView.swift */,
+				097DAFA12B0E664E00A701AB /* ProductDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097DAF7A2B0E5ACF00A701AB /* IKEA_NC1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097DAF892B0E5AD000A701AB /* Build configuration list for PBXNativeTarget "IKEA_NC1" */;
+			buildPhases = (
+				097DAF772B0E5ACF00A701AB /* Sources */,
+				097DAF782B0E5ACF00A701AB /* Frameworks */,
+				097DAF792B0E5ACF00A701AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKEA_NC1;
+			productName = IKEA_NC1;
+			productReference = 097DAF7B2B0E5ACF00A701AB /* IKEA_NC1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		097DAF732B0E5ACF00A701AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					097DAF7A2B0E5ACF00A701AB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 097DAF762B0E5ACF00A701AB /* Build configuration list for PBXProject "IKEA_NC1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 097DAF722B0E5ACF00A701AB;
+			productRefGroup = 097DAF7C2B0E5ACF00A701AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				097DAF7A2B0E5ACF00A701AB /* IKEA_NC1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097DAF792B0E5ACF00A701AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA193162B0E7E820064A8DB /* flower_tulip.usdz in Resources */,
+				097DAF862B0E5AD000A701AB /* Preview Assets.xcassets in Resources */,
+				8EA193182B0E7EB40064A8DB /* chair_swan.usdz in Resources */,
+				8EA1931A2B0E7EBD0064A8DB /* tv_retro.usdz in Resources */,
+				097DAF832B0E5AD000A701AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097DAF772B0E5ACF00A701AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097DAF8D2B0E5C0800A701AB /* caroselloGrande.swift in Sources */,
+				097DAF8F2B0E5C9E00A701AB /* CardData.swift in Sources */,
+				097DAFA22B0E664E00A701AB /* ProductDetailView.swift in Sources */,
+				097DAF812B0E5ACF00A701AB /* ContentView.swift in Sources */,
+				097DAF7F2B0E5ACF00A701AB /* IKEA_NC1App.swift in Sources */,
+				097DAF922B0E5CD100A701AB /* CardViewModel.swift in Sources */,
+				097DAF9D2B0E5F1200A701AB /* GridRooms.swift in Sources */,
+				097DAF962B0E5D5A00A701AB /* SearchBar.swift in Sources */,
+				097DAF982B0E5E6C00A701AB /* ButtonScanner.swift in Sources */,
+				097DAF9F2B0E62DC00A701AB /* SegmentedControl.swift in Sources */,
+				097DAF9B2B0E5F0600A701AB /* GridProducts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		097DAF872B0E5AD000A701AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		097DAF882B0E5AD000A701AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		097DAF8A2B0E5AD000A701AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IKEA_NC1/Preview Content\"";
+				DEVELOPMENT_TEAM = UPT325BVP4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lihuahu.IKEA-NC1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		097DAF8B2B0E5AD000A701AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IKEA_NC1/Preview Content\"";
+				DEVELOPMENT_TEAM = UPT325BVP4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lihuahu.IKEA-NC1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097DAF762B0E5ACF00A701AB /* Build configuration list for PBXProject "IKEA_NC1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097DAF872B0E5AD000A701AB /* Debug */,
+				097DAF882B0E5AD000A701AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097DAF892B0E5AD000A701AB /* Build configuration list for PBXNativeTarget "IKEA_NC1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097DAF8A2B0E5AD000A701AB /* Debug */,
+				097DAF8B2B0E5AD000A701AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 097DAF732B0E5ACF00A701AB /* Project object */;
+}
