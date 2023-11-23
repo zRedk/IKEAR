@@ -128,16 +128,7 @@ struct ProductDetailView: View {
                 
                 
                 
-                ZStack {
-                    Capsule()
-                        .fill(Color("ColorScanner"))
-                    .frame(width: 320, height: 60)
-                    
-                    Text("Aggiungi al carrello")
-                        .foregroundColor(.white)
-                        .bold()
-                        .multilineTextAlignment(.center)
-                }
+                
                 
             } //: VSTACK
             .padding(.horizontal)

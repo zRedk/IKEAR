@@ -27,9 +27,11 @@ struct ContentView: View {
                 ToolbarItem(placement: .topBarLeading) {
                     Button(action: {}, label: {
                         Image(systemName: "person")
+                            .accessibilityAddTraits([.isButton])
                             .foregroundStyle(.black)
                             .bold()
-                        }
+                            .accessibilityLabel("Profile")
+                    }
                     )
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -42,9 +44,7 @@ struct ContentView: View {
                 }
             }
             
-            
         }
-        
     }
 }
 
@@ -57,31 +57,22 @@ struct TabBar: View {
             Text("Home")
                 .tabItem {
                     Image(systemName: "house")
-                    
                 }
-            
             ContentView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
-                    
                 }
-            
-            Text("Negozio")
+            Text("Shop")
                 .tabItem {
-                    Image(systemName: "house")
-                    
+                    Image(systemName: "bag")
                 }
-            
-            Text("Preferiti")
+            Text("Favourites")
                 .tabItem {
                     Image(systemName: "heart")
-                    
                 }
-            
             Text("Cart")
                 .tabItem {
                     Image(systemName: "cart")
-                    
                 }
         }.accentColor(.black)
         .background(Color.white) 

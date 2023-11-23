@@ -16,6 +16,7 @@ struct SegmentedControl: View {
         VStack {
             HStack{
                 Text("Products ")
+                    .accessibilityAddTraits([.isButton])
                     .foregroundStyle(selection ? .black : .gray)
                     .onTapGesture {
                         
@@ -23,18 +24,17 @@ struct SegmentedControl: View {
                             selection = true
                         }
                     }
-                
-                
-                
+                    .accessibilityLabel("Products")
+               
                 Text(" Rooms")
+                    .accessibilityAddTraits([.isButton])
                     .foregroundStyle((selection ? .gray : .black))
                     .onTapGesture {
-                        
                         withAnimation{
                             selection = false
                         }
-                        
                     }
+                    .accessibilityLabel("Rooms")
             }
             
             Rectangle().frame(width: 60, height: 3).offset(CGSize(width: selection ? -35 : 40, height: 0))
@@ -45,6 +45,7 @@ struct SegmentedControl: View {
         
         if selection == true {
             GridProducts(cards: cards)
+            
         } else {
             GridRooms()
         }

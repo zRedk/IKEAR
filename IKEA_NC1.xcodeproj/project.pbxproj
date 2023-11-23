@@ -19,15 +19,15 @@
 		097DAF9D2B0E5F1200A701AB /* GridRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF9C2B0E5F1200A701AB /* GridRooms.swift */; };
 		097DAF9F2B0E62DC00A701AB /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF9E2B0E62DC00A701AB /* SegmentedControl.swift */; };
 		097DAFA22B0E664E00A701AB /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAFA12B0E664E00A701AB /* ProductDetailView.swift */; };
-		8EA193162B0E7E820064A8DB /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193152B0E7E820064A8DB /* flower_tulip.usdz */; };
-		8EA193182B0E7EB40064A8DB /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193172B0E7EB40064A8DB /* chair_swan.usdz */; };
-		8EA1931A2B0E7EBD0064A8DB /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */; };
+		8EA193182B0E7EB40064A8DB /* chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193172B0E7EB40064A8DB /* chair.usdz */; };
 		8EA1931E2B0F58A80064A8DB /* BackgroundLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1931D2B0F58A80064A8DB /* BackgroundLogic.swift */; };
 		8EA193202B0F59750064A8DB /* CustomTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1931F2B0F59750064A8DB /* CustomTopBar.swift */; };
 		8EA193232B0F5B850064A8DB /* ProductARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA193222B0F5B850064A8DB /* ProductARView.swift */; };
 		8EA193252B0F5BBA0064A8DB /* QuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA193242B0F5BBA0064A8DB /* QuickLookView.swift */; };
-		8EA193272B0F621D0064A8DB /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193262B0F621D0064A8DB /* fender_stratocaster.usdz */; };
 		8EA193292B0F66E80064A8DB /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA193282B0F66E80064A8DB /* Carousel.swift */; };
+		8EA1932C2B0F9FAB0064A8DB /* vase.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1932B2B0F9FAB0064A8DB /* vase.usdz */; };
+		8EA1932E2B0F9FBF0064A8DB /* tv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1932D2B0F9FBF0064A8DB /* tv.usdz */; };
+		8EA193302B0F9FDD0064A8DB /* guitar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1932F2B0F9FDD0064A8DB /* guitar.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,15 +44,15 @@
 		097DAF9C2B0E5F1200A701AB /* GridRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRooms.swift; sourceTree = "<group>"; };
 		097DAF9E2B0E62DC00A701AB /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		097DAFA12B0E664E00A701AB /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
-		8EA193152B0E7E820064A8DB /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
-		8EA193172B0E7EB40064A8DB /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
-		8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		8EA193172B0E7EB40064A8DB /* chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair.usdz; sourceTree = "<group>"; };
 		8EA1931D2B0F58A80064A8DB /* BackgroundLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLogic.swift; sourceTree = "<group>"; };
 		8EA1931F2B0F59750064A8DB /* CustomTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTopBar.swift; sourceTree = "<group>"; };
 		8EA193222B0F5B850064A8DB /* ProductARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductARView.swift; sourceTree = "<group>"; };
 		8EA193242B0F5BBA0064A8DB /* QuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookView.swift; sourceTree = "<group>"; };
-		8EA193262B0F621D0064A8DB /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
 		8EA193282B0F66E80064A8DB /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		8EA1932B2B0F9FAB0064A8DB /* vase.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = vase.usdz; sourceTree = "<group>"; };
+		8EA1932D2B0F9FBF0064A8DB /* tv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv.usdz; sourceTree = "<group>"; };
+		8EA1932F2B0F9FDD0064A8DB /* guitar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = guitar.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				097DAF852B0E5AD000A701AB /* Preview Assets.xcassets */,
-				8EA193152B0E7E820064A8DB /* flower_tulip.usdz */,
-				8EA193172B0E7EB40064A8DB /* chair_swan.usdz */,
-				8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */,
-				8EA193262B0F621D0064A8DB /* fender_stratocaster.usdz */,
+				8EA1932B2B0F9FAB0064A8DB /* vase.usdz */,
+				8EA1932F2B0F9FDD0064A8DB /* guitar.usdz */,
+				8EA1932D2B0F9FBF0064A8DB /* tv.usdz */,
+				8EA193172B0E7EB40064A8DB /* chair.usdz */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -216,11 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EA193162B0E7E820064A8DB /* flower_tulip.usdz in Resources */,
+				8EA1932C2B0F9FAB0064A8DB /* vase.usdz in Resources */,
+				8EA193302B0F9FDD0064A8DB /* guitar.usdz in Resources */,
+				8EA1932E2B0F9FBF0064A8DB /* tv.usdz in Resources */,
 				097DAF862B0E5AD000A701AB /* Preview Assets.xcassets in Resources */,
-				8EA193272B0F621D0064A8DB /* fender_stratocaster.usdz in Resources */,
-				8EA193182B0E7EB40064A8DB /* chair_swan.usdz in Resources */,
-				8EA1931A2B0E7EBD0064A8DB /* tv_retro.usdz in Resources */,
+				8EA193182B0E7EB40064A8DB /* chair.usdz in Resources */,
 				097DAF832B0E5AD000A701AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +383,7 @@
 				DEVELOPMENT_TEAM = 52J8PJ423S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = IKEA;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -412,6 +413,7 @@
 				DEVELOPMENT_TEAM = 52J8PJ423S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = IKEA;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -22,6 +22,7 @@ struct Carousel: View {
                         .cornerRadius(10)
                         .frame(width: imageWidth, height: imageHeight)
                         .shadow(radius: 3)
+                        .accessibilityLabel("")
                 }
             }
             .padding(10)
