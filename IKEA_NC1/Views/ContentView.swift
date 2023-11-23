@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  IKEA_NC1
 //
-//  Created by sara hu lihua on 22/11/23.
+//  Created by Federica Mosca on 22/11/23.
 //
 
 import SwiftUI
@@ -20,7 +20,7 @@ struct ContentView: View {
                     ButtonScanner()
                 }.padding()
                 
-                caroselloGrande()
+                Carousel()
                 
                 SegmentedControl(cards: cards)
             } .toolbar{

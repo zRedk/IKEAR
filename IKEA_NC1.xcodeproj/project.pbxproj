@@ -11,7 +11,6 @@
 		097DAF812B0E5ACF00A701AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF802B0E5ACF00A701AB /* ContentView.swift */; };
 		097DAF832B0E5AD000A701AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097DAF822B0E5AD000A701AB /* Assets.xcassets */; };
 		097DAF862B0E5AD000A701AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097DAF852B0E5AD000A701AB /* Preview Assets.xcassets */; };
-		097DAF8D2B0E5C0800A701AB /* caroselloGrande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF8C2B0E5C0800A701AB /* caroselloGrande.swift */; };
 		097DAF8F2B0E5C9E00A701AB /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF8E2B0E5C9E00A701AB /* CardData.swift */; };
 		097DAF922B0E5CD100A701AB /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF912B0E5CD100A701AB /* CardViewModel.swift */; };
 		097DAF962B0E5D5A00A701AB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097DAF952B0E5D5A00A701AB /* SearchBar.swift */; };
@@ -23,6 +22,12 @@
 		8EA193162B0E7E820064A8DB /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193152B0E7E820064A8DB /* flower_tulip.usdz */; };
 		8EA193182B0E7EB40064A8DB /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193172B0E7EB40064A8DB /* chair_swan.usdz */; };
 		8EA1931A2B0E7EBD0064A8DB /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */; };
+		8EA1931E2B0F58A80064A8DB /* BackgroundLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1931D2B0F58A80064A8DB /* BackgroundLogic.swift */; };
+		8EA193202B0F59750064A8DB /* CustomTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1931F2B0F59750064A8DB /* CustomTopBar.swift */; };
+		8EA193232B0F5B850064A8DB /* ProductARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA193222B0F5B850064A8DB /* ProductARView.swift */; };
+		8EA193252B0F5BBA0064A8DB /* QuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA193242B0F5BBA0064A8DB /* QuickLookView.swift */; };
+		8EA193272B0F621D0064A8DB /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8EA193262B0F621D0064A8DB /* fender_stratocaster.usdz */; };
+		8EA193292B0F66E80064A8DB /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA193282B0F66E80064A8DB /* Carousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +36,6 @@
 		097DAF802B0E5ACF00A701AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		097DAF822B0E5AD000A701AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		097DAF852B0E5AD000A701AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		097DAF8C2B0E5C0800A701AB /* caroselloGrande.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caroselloGrande.swift; sourceTree = "<group>"; };
 		097DAF8E2B0E5C9E00A701AB /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		097DAF912B0E5CD100A701AB /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		097DAF952B0E5D5A00A701AB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -43,6 +47,12 @@
 		8EA193152B0E7E820064A8DB /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
 		8EA193172B0E7EB40064A8DB /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
 		8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		8EA1931D2B0F58A80064A8DB /* BackgroundLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLogic.swift; sourceTree = "<group>"; };
+		8EA1931F2B0F59750064A8DB /* CustomTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTopBar.swift; sourceTree = "<group>"; };
+		8EA193222B0F5B850064A8DB /* ProductARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductARView.swift; sourceTree = "<group>"; };
+		8EA193242B0F5BBA0064A8DB /* QuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookView.swift; sourceTree = "<group>"; };
+		8EA193262B0F621D0064A8DB /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		8EA193282B0F66E80064A8DB /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +85,14 @@
 		097DAF7D2B0E5ACF00A701AB /* IKEA_NC1 */ = {
 			isa = PBXGroup;
 			children = (
+				8EA193212B0F5B680064A8DB /* ARViews */,
 				097DAF7E2B0E5ACF00A701AB /* IKEA_NC1App.swift */,
 				097DAFA02B0E663000A701AB /* Views */,
 				097DAF942B0E5D2E00A701AB /* Components */,
 				097DAF902B0E5CB600A701AB /* Data */,
 				097DAF822B0E5AD000A701AB /* Assets.xcassets */,
 				097DAF842B0E5AD000A701AB /* Preview Content */,
+				8EA1931D2B0F58A80064A8DB /* BackgroundLogic.swift */,
 			);
 			path = IKEA_NC1;
 			sourceTree = "<group>";
@@ -92,6 +104,7 @@
 				8EA193152B0E7E820064A8DB /* flower_tulip.usdz */,
 				8EA193172B0E7EB40064A8DB /* chair_swan.usdz */,
 				8EA193192B0E7EBD0064A8DB /* tv_retro.usdz */,
+				8EA193262B0F621D0064A8DB /* fender_stratocaster.usdz */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -108,10 +121,11 @@
 		097DAF942B0E5D2E00A701AB /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				097DAF8C2B0E5C0800A701AB /* caroselloGrande.swift */,
 				097DAF952B0E5D5A00A701AB /* SearchBar.swift */,
+				8EA193282B0F66E80064A8DB /* Carousel.swift */,
 				097DAF972B0E5E6C00A701AB /* ButtonScanner.swift */,
 				097DAF9E2B0E62DC00A701AB /* SegmentedControl.swift */,
+				8EA1931F2B0F59750064A8DB /* CustomTopBar.swift */,
 				097DAF992B0E5ED400A701AB /* Grids */,
 			);
 			path = Components;
@@ -133,6 +147,15 @@
 				097DAFA12B0E664E00A701AB /* ProductDetailView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8EA193212B0F5B680064A8DB /* ARViews */ = {
+			isa = PBXGroup;
+			children = (
+				8EA193222B0F5B850064A8DB /* ProductARView.swift */,
+				8EA193242B0F5BBA0064A8DB /* QuickLookView.swift */,
+			);
+			path = ARViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +218,7 @@
 			files = (
 				8EA193162B0E7E820064A8DB /* flower_tulip.usdz in Resources */,
 				097DAF862B0E5AD000A701AB /* Preview Assets.xcassets in Resources */,
+				8EA193272B0F621D0064A8DB /* fender_stratocaster.usdz in Resources */,
 				8EA193182B0E7EB40064A8DB /* chair_swan.usdz in Resources */,
 				8EA1931A2B0E7EBD0064A8DB /* tv_retro.usdz in Resources */,
 				097DAF832B0E5AD000A701AB /* Assets.xcassets in Resources */,
@@ -208,13 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097DAF8D2B0E5C0800A701AB /* caroselloGrande.swift in Sources */,
 				097DAF8F2B0E5C9E00A701AB /* CardData.swift in Sources */,
+				8EA1931E2B0F58A80064A8DB /* BackgroundLogic.swift in Sources */,
 				097DAFA22B0E664E00A701AB /* ProductDetailView.swift in Sources */,
+				8EA193292B0F66E80064A8DB /* Carousel.swift in Sources */,
 				097DAF812B0E5ACF00A701AB /* ContentView.swift in Sources */,
 				097DAF7F2B0E5ACF00A701AB /* IKEA_NC1App.swift in Sources */,
+				8EA193252B0F5BBA0064A8DB /* QuickLookView.swift in Sources */,
 				097DAF922B0E5CD100A701AB /* CardViewModel.swift in Sources */,
+				8EA193202B0F59750064A8DB /* CustomTopBar.swift in Sources */,
 				097DAF9D2B0E5F1200A701AB /* GridRooms.swift in Sources */,
+				8EA193232B0F5B850064A8DB /* ProductARView.swift in Sources */,
 				097DAF962B0E5D5A00A701AB /* SearchBar.swift in Sources */,
 				097DAF982B0E5E6C00A701AB /* ButtonScanner.swift in Sources */,
 				097DAF9F2B0E62DC00A701AB /* SegmentedControl.swift in Sources */,
@@ -352,7 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IKEA_NC1/Preview Content\"";
-				DEVELOPMENT_TEAM = UPT325BVP4;
+				DEVELOPMENT_TEAM = 52J8PJ423S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -365,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lihuahu.IKEA-NC1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicamosca.IKEA-NC1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -381,7 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IKEA_NC1/Preview Content\"";
-				DEVELOPMENT_TEAM = UPT325BVP4;
+				DEVELOPMENT_TEAM = 52J8PJ423S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -394,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lihuahu.IKEA-NC1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.federicamosca.IKEA-NC1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

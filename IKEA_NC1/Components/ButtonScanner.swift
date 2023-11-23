@@ -1,8 +1,8 @@
 //
 //  ButtonScanner.swift
-//  ikea_1
+//  IKEA_NC1
 //
-//  Created by sara hu lihua on 18/11/23.
+//  Created by Federica Mosca on 23/11/23.
 //
 
 import SwiftUI
