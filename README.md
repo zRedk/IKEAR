@@ -8,3 +8,5 @@ The IKEAR app is an academic project aimed at exploring augmented reality (AR) t
 - Explore a variety of furniture items virtually.
 - Visualize items in your space using AR technology.
 - Reposition and scale the furniture models in AR using intuitive gestures for a more personalized experience.
+
+![IKEAR poster](IKEAR_poster.png)
