@@ -20,10 +20,14 @@ Welcome to IKEAR, your immersive shopping companion that brings the world of IKE
 <a name="features"></a>
 ## Features
 
-***Augmented Reality (AR):** Experience IKEA products in your own space through 3D room visualization and standalone product viewing. Utilizing RealityKit, ARKit, and QuickLook, IKEAR offers an immersive shopping experience like never before.
-***Dynamic Currency Conversion:** The app dynamically adjusts currency based on local settings, ensuring a personalized experience for users worldwide.
-***Replicated UI/UX:** Inspired by the original IKEA app, IKEAR features a familiar and intuitive user interface, allowing for effortless navigation and seamless shopping. This includes a custom tab view, meticulously reproduced to mirror the functionality and aesthetics of the original app, enhancing user familiarity and comfort.
-***Accessibility:** Accessibility traits have been carefully curated and implemented to ensure that all users, regardless of ability, can enjoy a smooth and inclusive shopping experience.
+**-Augmented Reality (AR):** Experience IKEA products in your own space through 3D room visualization and standalone product viewing. Utilizing RealityKit, ARKit, and QuickLook, IKEAR offers an immersive shopping experience like never before.
+
+**-Dynamic Currency Conversion:** The app dynamically adjusts currency based on local settings, ensuring a personalized experience for users worldwide.
+
+**-Replicated UI/UX:** Inspired by the original IKEA app, IKEAR features a familiar and intuitive user interface, allowing for effortless navigation and seamless shopping. This includes a custom tab view, meticulously reproduced to mirror the functionality and aesthetics of the original app, enhancing user familiarity and comfort.
+
+**-Accessibility:** Accessibility traits have been carefully curated and implemented to ensure that all users, regardless of ability, can enjoy a smooth and inclusive shopping experience.
+
 ![Poster](https://github.com/zRedk/IKEAR/blob/main/Poster.jpg)
 
 <a name="purpose"></a>
