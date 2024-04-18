@@ -50,7 +50,7 @@ IKEAR was born out of a desire to learn and master various iOS development techn
 <a name="license"></a>
 ## License
 
-SetMeUp is licensed under the GNU License. See the [LICENSE](https://github.com/zRedk/IKEAR/blob/main/LICENSE) file for details.
+IKEAR is licensed under the GNU License. See the [LICENSE](https://github.com/zRedk/IKEAR/blob/main/LICENSE) file for details.
 
 <a name="credits"></a>
 ## Credits
